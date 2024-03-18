@@ -3,3 +3,18 @@
     padding: 0;
 }
 
+body {
+    background-color: #F3F5FC;
+}
+
+.principal {
+    display: flex;
+}
+
+.principal__texto {
+
+}
+
+.principal__texto__botoes {
+    
+}
