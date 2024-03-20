@@ -7,19 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">Logo</header>
+    <header class="cabecalho">
+        <img class="cabecalho__imagem" src="./assets/logoAlura.png">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link">Home</a>
+            <a class="cabecalho__menu__link">Sobre</a>
+        </nav>
+    </header>
     <main class="principal">
         <section class="principal__texto">
-            <h2>Digite seu texto</h2>
-            <input type="textarea">
+            <h2 class="principal__texto__titulo">Digite seu texto</h2>
+            <input class="principal__texto__textarea" type="textarea">
             <div class="principal__texto__botoes">
                 <button>Criptografar</button>
                 <button>Descriptografar</button>
             </div>
         </section>
         <section class="principal__resultado">
-            <img src="" alt="alguma coisa">
+            <img class="principal__resultado__imagem" src="./assets/boneco.png" alt="alguma coisa">
             <h3>Nenhuma mensagem encontrada!</h3>
+            <button>Copiar</button>
         </section>
     </main>
     <footer>Footer</footer>
