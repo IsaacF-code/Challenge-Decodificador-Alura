@@ -8,8 +8,8 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img class="cabecalho__imagem" src="./assets/logoAlura.png">
         <nav class="cabecalho__menu">
+            <img class="cabecalho__imagem" src="./assets/logoAlura.png">
             <a class="cabecalho__menu__link">Home</a>
             <a class="cabecalho__menu__link">Sobre</a>
         </nav>
@@ -17,16 +17,18 @@
     <main class="principal">
         <section class="principal__texto">
             <h2 class="principal__texto__titulo">Digite seu texto</h2>
-            <input class="principal__texto__textarea" type="textarea">
+            <textarea class="principal__texto__textarea" id="textArea" type="text" placeholder="Digite seu texto aqui"></textarea>
             <div class="principal__texto__botoes">
-                <button>Criptografar</button>
-                <button>Descriptografar</button>
+                <button onclick="btnEncriptar()">Criptografar</button>
+                <button onclick="btnDesencriptar()">Descriptografar</button>
             </div>
         </section>
-        <section class="principal__resultado">
+        <section class="principal__resultado" id="resultado">
             <img class="principal__resultado__imagem" src="./assets/boneco.png" alt="alguma coisa">
             <h3>Nenhuma mensagem encontrada!</h3>
-            <button>Copiar</button>
+            <div class="principal__resultado__div">
+                <button class="principal__resultado__botao">Copiar</button>
+            </div>    
         </section>
     </main>
     <footer class="rodape">&copy; Isaac Freires - 2024</footer>
