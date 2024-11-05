@@ -12,3 +12,9 @@
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" title="Javascript" Alt="Logo do Javascript">
   <img src="https://skillicons.dev/icons?i=js"/>
 </a>
+
+### Ajustes e melhorias
+
+- [ ] - Dark Mode
+- [ ] - Responvidade no mobile
+- [ ] - Ajustes nos ícones e design
