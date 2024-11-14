@@ -15,20 +15,27 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0 0 15%;
+    padding: 2% 15%;
     background-color: #FFF;
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
-.cabecalho__imagem {
+/* .cabecalho__imagem {
    
+} */
+
+.links{
+    display: flex;
+    gap: 1rem;
 }
 
 .cabecalho__menu {
     display: flex;
-    /* justify-content: ; */
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
     /* gap: 40px; */
 }
 
