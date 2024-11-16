@@ -1,5 +1,5 @@
-const textArea = document.querySelector(".principal__texto__textarea");
-const mensagem = document.querySelector(".principal__resultado");
+const textArea = document.querySelector(".text-textarea");
+const mensagem = document.querySelector(".text-result");
 
 // As "chaves" de criptografia que utilizaremos são:
 // `A letra "e" é convertida para "enter"`
@@ -26,7 +26,7 @@ function encriptar(stringEncriptada) {
         }
     }
 
-    document.getElementById('resultado').innerHTML = '<textarea readonly class="principal__texto__textarea">' + stringEncriptada + '</textarea>';
+    document.getElementById('result').innerHTML = '<textarea readonly class="text-textarea">' + stringEncriptada + '</textarea>';
     return stringEncriptada;
 }
 
@@ -49,6 +49,6 @@ function desencriptar(stringDesencriptada) {
         }
     }
 
-    document.getElementById('resultado').innerHTML = '<textarea readonly class="principal__texto__textarea">' + stringDesencriptada + '</textarea>';
+    document.getElementById('result').innerHTML = '<textarea readonly class="text-textarea">' + stringDesencriptada + '</textarea>';
     return stringDesencriptada;
 }

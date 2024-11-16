@@ -18,7 +18,7 @@ body {
 
 /* Header */
 .header {
-    padding: 2% 15%;
+    padding: 1.5rem 15%;
     background-color: var(--cor-terciaria);
     width: 100%;
     display: flex;
@@ -35,7 +35,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* gap: 40px; */
 }
 
 .navbar a {
@@ -44,52 +43,48 @@ body {
 }
 
 /* Main */
-main {
-    padding: 5% 15%;
+.main {
+    padding: 2rem 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
 }
 
-.principal__texto {
+.text-encrypt {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    /* gap: 80px; */
 }
 
-.principal__texto__textarea {
+.text-textarea {
     width: 100%;
     height: 40vh;
-    border-radius: 10px;
+    border-radius: 2rem;
     margin-top: 5%;
     resize: none;
     /* border: none; */
 }
 
-.principal__texto__botoes {
+.text-encrypt-buttons {
     margin-top: 5%;
     text-align: center;
 }
 
-.principal__resultado {
+.text-result {
     background-color: var(--cor-terciaria);
-    border-radius: 10px;
+    border-radius: 2rem;
     height: 50%;
     padding-top: 20%;
     border: 2px solid black;
 }
 
-/* .principal__resultado__imagem {
- 
-} */
-
-.principal__resultado__div {
+.text-result-button {
     margin-top: 10%;
     text-align: center;
-
+    visibility: hidden;
 }
+
 
 /* Footer */
 .footer {
