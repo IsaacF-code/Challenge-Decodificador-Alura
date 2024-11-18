@@ -54,14 +54,17 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* gap: 80px; */
+    gap: 2rem;
+}
+
+.text-encrypt h2 {
+    font-size: 2rem;
 }
 
 .text-textarea {
-    width: 100%;
+    /* width: 100%; */
     height: 40vh;
     border-radius: 2rem;
-    margin-top: 5%;
     resize: none;
     /* border: none; */
 }
@@ -75,14 +78,14 @@ body {
     background-color: var(--cor-terciaria);
     border-radius: 2rem;
     height: 50%;
-    padding-top: 20%;
+    padding: 8rem 0;
     border: 2px solid black;
 }
 
 .text-result-button {
     margin-top: 10%;
     text-align: center;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 
