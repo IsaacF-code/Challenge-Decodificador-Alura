@@ -2,7 +2,7 @@
 
 >Desafio proposto pela Alura, usando as tecnologias HTML, CSS e Javascript para criar um decodificador de textos, para fixação do conteúdo
 
-### Tecnologias
+## Tecnologias
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" title="HTML" Alt="Logo do HTML">
   <img src="https://skillicons.dev/icons?i=html"/>
 </a>
@@ -13,7 +13,7 @@
   <img src="https://skillicons.dev/icons?i=js"/>
 </a>
 
-### 🔧 Ajustes e melhorias
+## 🔧 Ajustes e melhorias
 
 - [ ] - Dark Mode
 - [ ] - Responsividade no mobile
