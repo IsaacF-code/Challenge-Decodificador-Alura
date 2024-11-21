@@ -13,7 +13,7 @@
   <img src="https://skillicons.dev/icons?i=js"/>
 </a>
 
-### Ajustes e melhorias
+### 🔧 Ajustes e melhorias
 
 - [ ] - Dark Mode
 - [ ] - Responsividade no mobile
