@@ -1,6 +1,6 @@
 # Challenge-Decodificador-Alura
 
->Desafio proposto pela Alura, usando as tecnologias HTML, CSS e Javascript para criar um decodificador de textos, para fixação do conteúdo
+>Desafio proposto pela Alura, usando as tecnologias HTML, CSS e Javascript para criar um decodificador de textos, para fixação do conteúdo.
 
 ## Tecnologias
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" title="HTML" Alt="Logo do HTML">
