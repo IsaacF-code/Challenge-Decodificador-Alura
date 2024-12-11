@@ -9,6 +9,7 @@
     --cor-primaria: #F3F5FC;
     --cor-secundaria: #0A3871;
     --cor-terciaria: #FFF;
+    --cor-placeholder: #6e6e6e
 }
 
 body {
@@ -61,11 +62,18 @@ body {
     font-size: 2rem;
 }
 
+/* .text-encrypt span {
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 0.8rem;
+    color: var(--cor-placeholder);
+} */
+
 .text-textarea {
-    /* width: 100%; */
-    height: 40vh;
+    width: 100%;
     border-radius: 2rem;
     resize: none;
+    padding: 2.5rem;
     /* border: none; */
 }
 
@@ -75,9 +83,11 @@ body {
 }
 
 .text-encrypt-buttons button {
-    padding: 1rem;
+    padding: 0.6rem 2.5rem;
     border-radius: 2rem;
     margin-left: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 .text-result {
