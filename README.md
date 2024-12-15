@@ -17,4 +17,4 @@
 
 - [ ] - Dark Mode.
 - [ ] - Responsividade no mobile.
-- [ ] - Ajustes nos ícones e design
+- [ ] - Ajustes nos ícones e design.
