@@ -16,5 +16,5 @@
 ## 🔧 Ajustes e melhorias
 
 - [ ] - Dark Mode.
-- [ ] - Responsividade no mobile
+- [ ] - Responsividade no mobile.
 - [ ] - Ajustes nos ícones e design
