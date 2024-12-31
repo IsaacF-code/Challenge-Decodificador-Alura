@@ -83,12 +83,17 @@ body {
     text-align: center;
 }
 
-.text-encrypt-buttons button {
+.text-encrypt-buttons button, .text-result-button button {
     padding: 0.6rem 2.5rem;
     border-radius: 2rem;
     margin-left: 1rem;
     font-size: 1rem;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.text-encrypt-buttons button:hover, .text-result-button button:hover {
+    transform: scale(1.1);
 }
 
 .text-result {
@@ -105,7 +110,7 @@ body {
 }
 
 .text-result-button {
-    margin-top: 10%;
+    margin-top: 3.5rem;
     text-align: center;
     /* visibility: hidden; */
 }
