@@ -31,6 +31,15 @@ body {
     gap: 1rem;
 }
 
+.links a{
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.links a:hover {
+    border-bottom: solid 2px black;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
